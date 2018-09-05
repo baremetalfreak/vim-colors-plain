@@ -103,6 +103,7 @@ call s:h("Normal",        {"fg": s:norm})
 call s:h("Noise",         {"fg": s:norm_subtle})
 call s:h("Cursor",        {"bg": s:blue, "fg": s:norm})
 call s:h("Comment",       {"fg": s:comment, "gui": "italic"})
+call s:h("cssProp",       {"fg": s:comment, "gui": "italic"})
 
 call s:h("Constant",      {"fg": s:constant})
 hi! link Character        Constant
